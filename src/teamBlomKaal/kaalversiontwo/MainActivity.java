@@ -29,7 +29,6 @@ public class MainActivity extends Activity {
 	
 	public void onClickToSecondActivity(View v) {
 		startActivity(new Intent(this, MainActivity2.class));
-		setContentView(R.layout.activity_main_activity2);
 	}
 
 }
